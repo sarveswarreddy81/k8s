@@ -1,0 +1,10 @@
+piVersion: v1
+kind: Pod
+metadata:
+  name: clusterip-svc
+spec:
+  type: clusterip
+  selector:
+    app: test
+  ports:
+    - port:80
