@@ -1,8 +1,8 @@
-piVersion: v1
-kind: service
-metadata:
+ piVersion: v1
+ kind: service
+ metadata:
   name: nodeport-svc
-spec:
+ spec:
   type: nodeport
   selector:
     app: test-1

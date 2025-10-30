@@ -11,4 +11,3 @@ spec:
       port:
         - containerPort: 80
           protocol: TCP
- 
